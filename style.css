@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin: 40px 50px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    transition: .7s;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+nav .btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .7s;
+}
+nav .btn:hover{
+    background-color: #4d4d4d;
+}
+nav li:hover{
+    scale: 1.5;
+}
+nav .logo{
+    font-size: 30px;
+    margin-left: 50px;
+}
+section{
+    margin-top: 60px;
+    height: 650px;
+}
+section .contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 97px;
+}
+section img{
+    height: 500px;
+    width: 500px;
+}
+section .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+section .text h1{
+    font-size: 3rem;
+}
+section p{
+    font-weight: 400;
+}
+section button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    width: 200px;
+    padding: 19px;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: .5s;
+}
+section button:hover{
+    cursor: pointer;
+    background-color: rgb(82, 82, 82);
+}
+.service{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.service .top-contant h1{
+    background-color: #217aa1;
+    border-radius: 7px;
+    padding: 2px;
+    width: 150px;
+    position: relative;
+    left: 161px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.service .top-contant p{
+    font-weight: 400;
+}
+.side-contant img{
+    width: 170px;
+    height: 170px;
+}
+.side-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.side-contant .top-contant{
+    display: flex;
+    gap: 0 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.side-contant .top-contant .card{
+    background-color: #73768f;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+    border-radius: 20px;
+}
+.side-contant .top-contant .card .bottom{
+    margin-top: 50%;
+}
+.side-contant i{
+    background-color: #217aa1;
+    border-radius: 50%;
+    padding: 10px;
+}
+.side-contant a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
